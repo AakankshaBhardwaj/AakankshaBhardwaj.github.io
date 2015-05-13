@@ -32,7 +32,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Ram Laxman Yadav
-  avatar: ram.jpeg
+  avatar: bio-photo.jpg
   email: yadavramlaxman@gmail.com
   disqus-shortname:
   twitter: yadavramlaxman
