@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: Site Title
+title: Ram Laxamn Yadav
 locale: en_US
 description: Describe your website here.
 logo: site-logo.png
@@ -31,9 +31,9 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Ram Laxman Yadav
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: yadavramlaxman@gmail.com
   disqus-shortname:
   twitter: #username
   facebook: #username
