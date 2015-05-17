@@ -6,21 +6,13 @@ modified: 2014-08-08T19:44:38.564948-04:00
 image:
   feature: banner.jpg
   credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+An experience and skilled Computer scientist with software engineering and research background and capability in multiple information technology domains to include enterprise production environments, DoD information, and information technology services. I am passionate about business improvement and believe in having the right people in the right places with the right tools. This experience has given me a unique knowledge of the use of computers and Internet technologies
 
-## So Simple Theme is all about:
+###Specialities:
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
-
-[^1]: Example: *domain.com/category-name/post-title*
+* Ruby 
+* Rails
+* jQuery
+* My-Sql
