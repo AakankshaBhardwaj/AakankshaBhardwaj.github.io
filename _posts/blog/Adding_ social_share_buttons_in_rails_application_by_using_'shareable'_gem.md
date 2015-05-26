@@ -7,7 +7,7 @@ excerpt:
 tags: []
 image:
   feature:
-date: 2015-05-16T15:39:55-04:00
+date: 2015-05-26T15:39:55-04:00
 comments: true
 ---
 However in practice you need to add social sharing buttons inside your rails applications. Its very easy to add social buttons in rails application by using 'shareable' gem.
