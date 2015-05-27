@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Creating a circular progress Bar by using SVG path"
+title: "Adding social share buttons in rails application by using 'shareable' gem"
 modified:
 categories: blog
 excerpt:
