@@ -58,7 +58,7 @@ class SomeClassName
   attr_accessor :var_name
    
   def some_function_name
-   puts "Hello Inside from method"
+   puts "Hello I am inside the method"
   end
 end
 {% endhighlight %}
@@ -69,7 +69,7 @@ Now let's run these following lines:
 SomeClassName.instance.var_name = {version: '1.0.1'}
 #=>{version: '1.0.1'}
 SomeClassName.instance.some_function_name
-#=>Hello Inside from method
+#=>Hello I am inside the method
  
 second = SomeClassName.instance
 second.var_name = {version: '1.0.2'}
