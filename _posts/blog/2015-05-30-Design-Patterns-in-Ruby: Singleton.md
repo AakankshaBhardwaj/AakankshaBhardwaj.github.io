@@ -45,7 +45,7 @@ When this method is first called, an instance of the class is created, and all s
 {% highlight ruby %}
 a, b = SomeClassName.instance, SomeClassName.instance
 a == b
-#=> true
+#=>true
 {% endhighlight %}
 
 Let’s modify the SomeClassName class and add a few things to see how it works:
@@ -67,13 +67,13 @@ Now let's run these following lines:
 
 {% highlight ruby %}
 SomeClassName.instance.var_name = {version: '1.0.1'}
-#=> {version: '1.0.1'}
+#=>{version: '1.0.1'}
 SomeClassName.instance.some_function_name
-#=> Hello Inside from method
+#=>Hello Inside from method
  
 second = SomeClassName.instance
 second.var_name = {version: '1.0.2'}
-#=> {version: '1.0.2'}
+#=>{version: '1.0.2'}
 SomeClassName.instance.var_name
-#=> {version: '1.0.2'}
+#=>{version: '1.0.2'}
 {% endhighlight %}
