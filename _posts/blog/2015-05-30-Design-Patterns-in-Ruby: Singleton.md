@@ -36,7 +36,7 @@ The constructor is made private to prevent other instances from being accidental
 {% highlight ruby %}
 SomeClassName.new
 
-NoMethodError: private method 'new' called for AppConfig:Class
+=>NoMethodError: private method 'new' called for AppConfig:Class
 {% endhighlight %}
 
 To access the instance of this class, we need to use the instance() method provided by the Singleton module.
