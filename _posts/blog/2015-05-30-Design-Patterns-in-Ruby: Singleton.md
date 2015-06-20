@@ -46,7 +46,7 @@ When this method is first called, an instance of the class is created, and all s
 a, b = SomeClassName.instance, SomeClassName.instance
 a == b
 #=>true
-{% endhighlight %}
+{% endhighlight %}e have t
 
 Let’s modify the SomeClassName class and add a few things to see how it works:
 

@@ -11,21 +11,15 @@ date: 2015-06-20T15:39:55-04:00
 comments: true
 ---
 
-Hi Friends,
- 
-This is my first post here.I tried to make a circular progress bar in my application and I done it by using SVG Path.
+However in practice, we need read/write operations with google spreadsheets.In ruby it's pretty simple to perform 
+read/write operations in google spreadsheets.Here is an example of the same using ruby script.  
 
-Here is the sample code,
+### Prerequisite
+To perform read/write operation use gem [google-drive-ruby](https://github.com/gimite/google-drive-ruby).
 
-### HTML
-{% highlight html %}
-<svg style="width:100%; height:100%; position:absolute; top:0; left:0;">  
-    <path d="M200,200 " id="arc" fill="none" stroke="green" stroke-width="20"/>
-</svg>
-{% endhighlight %}
+####Install gem
 
-In path tag 'd=M200,200'  where (200,200) is the starting point from where the circular bar start.
-
+``` sudo gem install google_drive
 ### JavaScript
 
 {% highlight javascript %}
