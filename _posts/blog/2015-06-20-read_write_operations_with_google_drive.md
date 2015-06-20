@@ -37,7 +37,7 @@ To create client_id and client_secret you have to follow these steps:
 require "google/api_client"
 require "google_drive"
 
-#=>Hello I am inside the method
+#=>Get an google api client
 client = Google::APIClient.new
 auth = client.authorization
 auth.client_id = "YOUR CLIENT ID"
@@ -47,7 +47,7 @@ auth.scope = [
   "https://spreadsheets.google.com/feeds/"
 ]
 
-auth.redirect_uri = "YOUR_CALL_BAK_URL"
+auth.redirect_uri = "YOUR_REDIRECT_URL"
 print("1. Open this page:\n%s\n\n" % auth.authorization_uri)
 #=>This will print an url on screen.Copy this url and open in browser then copy the value of variable code and paste on the stdin.
 print("2. Enter the authorization code shown in the page: ")
