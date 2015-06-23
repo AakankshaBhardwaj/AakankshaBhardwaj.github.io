@@ -4,7 +4,7 @@ title: "Adding social share buttons in rails application by using 'shareable' ge
 modified:
 categories: blog
 excerpt:
-tags: []
+tags: [share-buttons]
 image:
   feature:
 date: 2015-05-23T15:39:55-04:00

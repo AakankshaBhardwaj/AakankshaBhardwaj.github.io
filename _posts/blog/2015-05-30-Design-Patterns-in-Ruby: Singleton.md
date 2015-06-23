@@ -4,7 +4,7 @@ title: "Design Patterns in Ruby: Singleton"
 modified:
 categories: blog
 excerpt:
-tags: []
+tags: [Design patern]
 image:
   feature:
 date: 2015-05-30T15:39:55-04:00

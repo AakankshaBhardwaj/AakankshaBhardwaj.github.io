@@ -4,7 +4,7 @@ title: "Creating a circular progress Bar by using SVG path"
 modified:
 categories: blog
 excerpt:
-tags: []
+tags: [Circulator-bar]
 image:
   feature:
 date: 2015-05-16T15:39:55-04:00
