@@ -54,6 +54,6 @@ After you've created and committed your ```CNAME``` file on GitHub, do one of th
 
 Now open your github page and you can see that it is forwarding to ```example.com```.
 
-Hurray !!! you have successfully added your custum domain to your github page.
+Hurray !!! you have successfully added your custom domain to your github page.
 
 If more detail please [click here](https://help.github.com/articles/adding-a-cname-file-to-your-repository/).
