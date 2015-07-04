@@ -18,8 +18,8 @@ Here is the step by step description how to add a custom domain to your github p
  
 ###Step 1
 First of all go on GitHub, navigate to your Pages repository.
-
 In the "Branches" menu, switch to your repository's Pages branch: 
+
 * For User and Organization Pages sites, the Pages branch is ```master```.
 * For Project Pages sites, the Pages branch is ```gh-pages```.
 
