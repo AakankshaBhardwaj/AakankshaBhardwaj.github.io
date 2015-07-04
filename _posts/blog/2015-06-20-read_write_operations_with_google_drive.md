@@ -75,3 +75,4 @@ file.download_to_file("/path/to/hello.txt")
 file.update_from_file("/path/to/hello.txt")
 {% endhighlight %}
 
+For more details and to see an  example please refer this [link](https://gist.github.com/ramlaxmanyadav/8ad74896fe1172acc6c6)
