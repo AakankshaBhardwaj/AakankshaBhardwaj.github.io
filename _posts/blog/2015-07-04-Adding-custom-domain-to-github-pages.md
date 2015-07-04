@@ -35,15 +35,18 @@ Commit the file
 
 ###Step 4
 Confirming that the custom domain has been configured correctly
+
 * In your repository's right sidebar, click setting tab. 
 * Under ```GitHub Pages```, you should see the custom domain from your ```CNAME``` file.
 
 ###Step 5 (Configuring DNS settings)
 After you've created and committed your ```CNAME``` file on GitHub, do one of the following with your DNS provider:
+
 * If your custom domain is a subdomain (recommended), configure a ```CNAME``` record.
 * If your custom domain is an apex domain, configure an ```ALIAS```, ```ANAME```, or ``A``` records.
     
 ####Example(Configuring DNS settings Bigrock)
+
 * Login to your Bigrock account and go to your domain's ```DNS Management``` section.
 * Click on ```Manage DNS```.
 * Click on ```A Record``` tab.
