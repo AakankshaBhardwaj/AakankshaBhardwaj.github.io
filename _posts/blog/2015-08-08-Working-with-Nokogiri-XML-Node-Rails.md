@@ -54,7 +54,7 @@ node.add_previous_sibling('some_html') #=>  add a sibling node before the node i
 
 ####7. Replace a node:
 {% highlight ruby %}
-node.replace('replace_node's_html') #=> replace a node by given html.
+node.replace("replace_node's_html") #=> replace a node by given html.
 {% endhighlight %}
 
 ####8. Styling a node:
@@ -68,3 +68,7 @@ css_class = node['class']  #=>  get the css_class of the node.
 node.to_html  #=>  will return html of the node.
 {% endhighlight %}
 
+
+Thanks for reading this. 
+
+Enjoy!!!
