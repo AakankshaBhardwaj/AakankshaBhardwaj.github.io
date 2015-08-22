@@ -17,8 +17,7 @@ Another instance where an http proxy might be useful is when using an applicatio
 Here is an example of proxy pass in nginx:
 
 The most straight-forward type of proxy involves handing off a request to a single server that can communicate using http. 
-####Example:
-
+Example:
 {% highlight ruby %}
 location /some_url {
     proxy_pass http://example.com;
