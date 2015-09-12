@@ -28,9 +28,9 @@ When processing the request,the server compares the value submitted by the authe
 
 5) Session reset.
 
-reset_session method
+###reset_session method
 {% highlight ruby %}
 session.destroy if session && session.respond_to?(:destroy)
 self.session = {}
 @env['action_dispatch.request.flash_hash'] = nil
-{% highlight ruby %}
+{% endhighlight %}
