@@ -4,9 +4,11 @@
 
 .masthead {
   margin-top: 40px;
+  background-color: black;
   @include clearfix;
   @include media($medium) {
     margin-top: 0;
+
   }
   .wrap {
     text-align: center;
@@ -30,6 +32,7 @@
 
 .site-logo {
   img {
+    margin-top :57px
     width: 100px;
     height: 100px;
     @include animation-duration(1s);
@@ -68,6 +71,7 @@
 
 .site-description {
   margin-top: 0;
+  color: white;
   font-family: $alt-font;
   @include font-size(16);
   font-weight: 400;
