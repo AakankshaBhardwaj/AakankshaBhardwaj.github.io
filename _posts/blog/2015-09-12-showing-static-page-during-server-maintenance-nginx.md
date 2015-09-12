@@ -37,13 +37,13 @@ error_page 503 @maintenance;
     }
 
 {% endhighlight %}
-#=> After writing the above code nginx search for ```$document_root/../../../shared/system/maintenance.html``` file if the file exists then it will show the ```error_page_name.html``` which is inside your ```application's/current/public``` directory.
+#=>After writing the above code nginx search for ```$document_root/../../../shared/system/maintenance.html``` file if the file exists then it will show the ```error_page_name.html``` which is inside your ```application's/current/public``` directory.
 
 ####Restart your nginx server
 Now restart nginx by executing
 ```sudo service nginx restart ```
 
-#=> Here we go, if there is a file named ```maintenance.html``` inside the ```application's/shared/system``` directory. It will show your error_page_name.html page.
+#=>Here we go, if there is a file named ```maintenance.html``` inside the ```application's/shared/system``` directory. It will show your error_page_name.html page.
 
 Enjoy!!
 
