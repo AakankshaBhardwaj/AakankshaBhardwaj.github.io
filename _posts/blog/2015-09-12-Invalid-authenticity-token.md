@@ -18,20 +18,21 @@ When processing the request,the server compares the value submitted by the authe
 
 ##STEPS:
 
-1) protect from forgery method calls verify_authenticity_token
+1) Protect from forgery method calls verify_authenticity_token.
 
-2The request is verified
+2) The request is verified.
 
-3)If the request is valid -> execute request
+3) If the request is valid it is executed.
 
-4)If the request is invalid -> handle_unverified_request method is called
+4) If the request is invalid it is handled by  handle_unverified_request method.
 
-and session reset is done.
+5) Session reset.
 
-reset_session method
-
+####reset_session method
+{% highlight ruby %}
 session.destroy if session && session.respond_to?(:destroy)
 
 self.session = {}
 
 @env['action_dispatch.request.flash_hash'] = nil
+{% highlight ruby %}
