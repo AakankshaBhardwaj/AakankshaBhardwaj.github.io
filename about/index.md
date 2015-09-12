@@ -1,12 +1,12 @@
 ---
 layout: page
 title: About Me
-modified: 2014-08-08T19:44:38.564948-04:00
+modified: 2015-09-12T19:44:38.564948-04:00
 image:
   feature: banner.jpg
 ---
 
-An experience and skilled Computer scientist with software engineering and research background and capability in multiple information technology domains to include enterprise production environments, DoD information, and information technology services. I am passionate about business improvement and believe in having the right people in the right places with the right tools. This experience has given me a unique knowledge of the use of computers and Internet technologies
+A fresher with software engineering background.
 
 ###Specialities:
 
@@ -14,7 +14,4 @@ An experience and skilled Computer scientist with software engineering and resea
 * Rails
 * jQuery
 * My-Sql
-* Nginx
-* Unicorn
-* Mina
-* Capistrano
+
