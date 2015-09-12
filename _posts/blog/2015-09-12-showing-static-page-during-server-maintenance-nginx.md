@@ -42,7 +42,6 @@ error_page 503 @maintenance;
 ####Restart your nginx server
 Now restart nginx by executing
 ```sudo service nginx restart ```
-
 #=>Here we go, if there is a file named ```maintenance.html``` inside the ```application's/shared/system``` directory. It will show your error_page_name.html page.
 
 Enjoy!!
