@@ -18,7 +18,7 @@ When processing the request,the server compares the value submitted by the authe
 
 ##STEPS:
 
-1) Protect from forgery method calls verify_authenticity_token.
+1) Protect from forgery method calls verify_authenticity_token method
 
 2) The request is verified.
 
