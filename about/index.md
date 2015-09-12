@@ -14,3 +14,7 @@ An experience and skilled Computer scientist with software engineering and resea
 * Rails
 * jQuery
 * My-Sql
+* Nginx
+* Unicorn
+* Mina
+* Capistrano
