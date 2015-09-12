@@ -3,8 +3,8 @@
    ========================================================================== */
 
 .masthead {
-  margin-top: 40px;
   background-color: black;
+  margin-top: 40px;
   @include clearfix;
   @include media($medium) {
     margin-top: 0;
@@ -62,7 +62,7 @@
     @include animation-delay(.75s);
   a {
     color: $black;
-  }
+   }
 }
 
 /*
