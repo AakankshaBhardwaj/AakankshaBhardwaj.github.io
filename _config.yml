@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title: Ram Laxman Yadav
+title: Aakanksha Bhardwaj
 locale: en_US
 description: Ruby on Rails developer
-logo: site-logo.jpeg
+logo: site-logo.JPG
 search: true
 url: http://abhardwaj.net/
 
@@ -31,15 +31,15 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Ram Laxman Yadav
-  avatar: site-logo.jpeg
-  email: yadavramlaxman@gmail.com
-  disqus-shortname: ramlaxmanyadav
-  twitter: yadavramlaxman
+  name: Aakanksha Bhardwaj
+  avatar: site-logo.JPG
+  email: bhardwaj.aakanksha@gmail.com
+  disqus-shortname: aakanksha
+  twitter: ''
   facebook: #username
-  github: ramlaxmanyadav
-  stackexchange: http://stackoverflow.com/users/3136258/ram
-  linkedin: ram-laxman/76/531/717
+  github: AakankshaBhardwaj
+  stackexchange: ''
+  linkedin: ''
   instagram: #username
   flickr: #username
   tumblr: #username
