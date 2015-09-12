@@ -15,7 +15,8 @@ To protect your application from hackers,rails includes a built in mechanism for
 Rails creates cryptographically random tokens,which are bounded to the user's session.Within each form a hidden input field,authenticity_token,is injected;this field contains the synchronizer token.The token is sent with the form submission request and is processed by the web application.
 
 When processing the request,the server compares the value submitted by the authenticity_token parameter to the value associated with the user's session.If it doesn't match,this indicates the request may be a malicious request forged by the attacker.In this case.it is expected that the request will fail , protecting the application from CSRF.
-#STEPS:
+
+##STEPS:
 
 1) protect from forgery method calls verify_authenticity_token
 
