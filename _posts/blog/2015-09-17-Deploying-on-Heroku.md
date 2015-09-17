@@ -38,7 +38,7 @@ c)git push heroku master
 {% endhighlight %}
 
 Note: If you are using sqlite3 gem,you'll get an error while deploying
- ###Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
 remote:        
 remote:        /tmp/build_f075a059a032a76b55f31bd152307fe1/vendor/ruby-2.0.0/bin/ruby extconf.rb
 remote:        checking for sqlite3.h... no
