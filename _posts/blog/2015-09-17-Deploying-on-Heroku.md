@@ -34,7 +34,7 @@ b)$heroku create app_name
 {% endhighlight %}
 
 {% highlight ruby %}
-c)git push heroku master
+c)$git push heroku master
 {% endhighlight %}
 
 Note: If you are using sqlite3 gem,you'll get an error while deploying
