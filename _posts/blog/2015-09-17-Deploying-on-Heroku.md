@@ -49,14 +49,12 @@ remote:        sqlite3.h is missing. Try 'port install sqlite3 +universal',
 
 
 {% highlight ruby%}
-
 group :development :test do
 gem 'sqlite3'
 end
 group :production do
 gem 'pg'
 end
-
 {%end highlight%}
 
 
