@@ -11,7 +11,7 @@ date: 2015-08-22T15:39:55-04:00
 comments: true
 ---
 
-####To deploy rails application on heroku all you need to do is follow these steps:
+###To deploy rails application on heroku all you need to do is follow these steps:
 
 1)First and the foremost is creating an account on Heroku.
 
@@ -37,5 +37,28 @@ b)$heroku create app_name
 {% highlight ruby %}
 c)git push heroku master
 {% endhighlight %}
+
+Note: If you are using sqlite3 gem,you'll get an error while deploying
+ ###Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+remote:        
+remote:        /tmp/build_f075a059a032a76b55f31bd152307fe1/vendor/ruby-2.0.0/bin/ruby extconf.rb
+remote:        checking for sqlite3.h... no
+remote:        sqlite3.h is missing. Try 'port install sqlite3 +universal',
+
+
+###To solve this problem
+
+
+{% highlight ruby%}
+
+group :development :test do
+gem 'sqlite3'
+end
+group :production do
+gem 'pg'
+end
+
+{%end highlight%}
+
 
 Thanks for reading this. 
