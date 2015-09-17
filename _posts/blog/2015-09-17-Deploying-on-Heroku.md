@@ -7,12 +7,11 @@ excerpt:
 tags: []
 image:
   feature:
-date: 2015-08-22T15:39:55-04:00
+date: 2015-00-17T15:39:55-04:00
 comments: true
 ---
 
 ###To deploy rails application on heroku all you need to do is follow these steps:
-
 1)First and the foremost is creating an account on Heroku.
 
 2)Then follow the email sent from heroku.
