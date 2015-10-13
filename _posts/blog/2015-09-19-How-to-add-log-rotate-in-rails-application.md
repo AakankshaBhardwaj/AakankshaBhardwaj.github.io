@@ -7,4 +7,3 @@ modified: 2015-10-13
 comments: true
 ---
 
-##To implement log_rotate in rails application
